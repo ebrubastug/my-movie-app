@@ -11,9 +11,8 @@ function Header() {
           <SiGradleplaypublisher /> EBRU
         </Link>
         <nav className={styles.navigationMenu}>
-          <Link href="#">MOVIES</Link>
-          <Link href="#">SERIES</Link>
-          <Link href="#">KIDS</Link>
+          <Link href="#">Popular TV Series</Link>
+          <Link href="#">Popular Movies</Link>
         </nav>
       </div>
     </header>

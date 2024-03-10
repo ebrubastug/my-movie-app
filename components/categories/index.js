@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
-import styles from "./style.module.css"
+
+import styles from "./styles.module.css";
 
 function Categories({ categories }) {
   return (
@@ -18,4 +19,5 @@ function Categories({ categories }) {
   );
 }
 
-export default Categories;
+export { CategoriesLoading } from "./loading";
+export { Categories };
