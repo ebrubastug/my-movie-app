@@ -46,7 +46,7 @@ export async function fetchTopRatedMovies() {
 
 export async function fetchSingleMovie(movieId) {
   try {
-    const res = await fetchData(`/movie/${movieId}`);
+    const res = await fetchData(`/tv/${movieId}`);
     return res;
   } catch (error) {
     throw new Error("Error happened while fetching top rated movies", error);
